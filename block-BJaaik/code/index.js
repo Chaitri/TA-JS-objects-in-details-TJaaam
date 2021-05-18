@@ -6,15 +6,15 @@ class Person {
     }
 
     eat() {
-        return `{this.name} is eating`;
+        return `${this.name} is eating`;
     }
 
     sleep() {
-        return `{this.name} is sleeping`;
+        return `${this.name} is sleeping`;
     }
 
     walk() {
-        return `{this.name} is walking`;
+        return `${this.name} is walking`;
     }
 }
 
