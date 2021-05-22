@@ -17,7 +17,7 @@ let questions = [
     {
         title: 'Which instrument is used for measuring wind speed?',
         options: ['Eudiometer', 'Laser Measure', 'Micrometer', 'Anemometer'],
-        answerIndex: 0,
+        answerIndex: 3,
     },
     {
         title: ' Which is the tallest waterfall in the world?',
