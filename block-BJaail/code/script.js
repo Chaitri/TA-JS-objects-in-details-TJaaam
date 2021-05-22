@@ -30,6 +30,11 @@ class Book {
         isbn.innerText = this.isbn;
         deleteIcn.innerText = '❌';
         deleteIcn.classList.add('deleteIcn');
+        if(this.read) {
+            alert(`${this.title} has been marked as read!`);
+        }   
+        
+        table.style.visibility = 'visible';
         tr.append(isReadCheck, title, author, isbn, deleteIcn);
         return tr; 
     }
@@ -65,6 +70,7 @@ class BookList {
     }
 }
 
+let table = document.querySelector('table');
 let title = document.querySelector('#title');
 let author = document.querySelector('#author');
 let isbn = document.querySelector('#isbn');

@@ -110,6 +110,7 @@ input {
 }
 
 table { 
+    visibility: hidden;
     border-collapse: collapse ; 
     width: 100%;
     margin: 2rem 0;
@@ -131,7 +132,7 @@ tbody tr:nth-child(even) {
 }
 
 .read {
-    background-color: rgb(225, 255, 231);
+    color: rgb(79, 255, 56);
 }
 
 .deleteIcn {
